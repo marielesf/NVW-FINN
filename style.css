@@ -6,22 +6,25 @@
 
 header {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 8vh;
   background-color: #2cb3f3;
   text-align: center;
+  position: relative;
 }
 
 body {
   background-color: #2cb3f3;
   height: 900px;
 }
-
+main {
+  display: flex;
+  justify-content: center;
+}
 .container {
-  position: absolute;
+  position: relative;
   width: 880px;
   height: 616px;
-  left: 20%;
-  top: 180px;
+  top: 60px;
   background: #ffffff;
   border-radius: 100px 100px 0px 0px;
 }
@@ -67,12 +70,15 @@ input {
   border: 3px solid #000000;
   border-radius: 5px;
 }
-
+.container-btn {
+  display: flex;
+  justify-content: center;
+}
 .btn-enviar {
   position: relative;
   width: 150px;
-  left: 651px;
-  top: 700px;
+  left: 0;
+  top: 100px;
   border-radius: 5px;
   background-color: green;
   color: lightgreen;
